@@ -1,6 +1,4 @@
-# Intel® Edge AI Scholarship Foundation Course Nanodegree Program
-
-**Last Updated:** 30 January 2020
+# Intel® Edge AI Nanodegree Program
 
 ---
 
@@ -19,10 +17,7 @@
 - [Deep Learning for Object Detection: A Comprehensive Review](https://towardsdatascience.com/deep-learning-for-object-detection-a-comprehensive-review-73930816d8d9)
 - [On implementing Deep Learning library from scratch in Python](https://towardsdatascience.com/on-implementing-deep-learning-library-from-scratch-in-python-c93c942710a8)
 - [Object Detection with YOLO algorithm](http://datahacker.rs/object-detection-yolo-algorithm/)
-- []()
-- []()
-- []()
-- []()
+
 
 ## Technical Resources
 
@@ -31,13 +26,8 @@
 
 ## Research Papers
 
-### To Read...
-
 - [ResNet: Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
--  [Inception: Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
-
-
-### Read...
+- [Inception: Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
 - [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325.pdf)
 
 
