@@ -1,12 +1,13 @@
 # Intel® Edge AI Nanodegree Program
 
 ---
+Chapters covered:
 
-1. Introduction to AI at the edge
-2. Leveraging Pre-Trained Models
-3. Model Optimizer
-4. Inference Engine
-5. Deploying an Edge App
+1. [Introduction to AI at the edge](1.%20Introduction%20to%20AI%20at%20the%20edge)
+2. [Leveraging Pre-Trained Models](2.%20Leveraging%20Pre-Trained%20Models)
+3. [Model Optimizer](3.%20Model%20Optimizer)
+4. [Inference Engine](4.%20Inference%20Engine)
+5. [Deploying an Edge App](5.%20Deploying%20an%20Edge%20App)
 
 
 ## Additional Resources
