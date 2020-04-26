@@ -1,4 +1,4 @@
-# Intel® Edge AI Nanodegree Program
+# Intel® Edge AI for IoT Developers nanodegree 
 
 ---
 Chapters covered:
