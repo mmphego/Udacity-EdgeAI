@@ -23,6 +23,7 @@ Chapters covered:
 ## Model Zoo
 
 - [TensorFlow* Object Detection API models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
+- [ONNX Models](https://github.com/onnx/models)
 - [Caffe Models](https://github.com/BVLC/caffe/tree/master/models) and [Caffe2 Models](https://github.com/caffe2/models)
 
 ## Technical Resources
