@@ -25,19 +25,18 @@ Chapters covered:
 - [TensorFlow* Object Detection API models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 - [Caffe Models](https://github.com/BVLC/caffe/tree/master/models) and [Caffe2 Models](https://github.com/caffe2/models)
 
-
 ## Technical Resources
 
 - [Raspbian Stretch: Install OpenCV 3 + Python on your Raspberry Pi](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
 - [Intel OpenVINO docker image](https://github.com/mmphego/my-dockerfiles/blob/master/intel-openvino/)
 
-
 ## Research Papers
 
-- [x]  [ResNet: Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
-- []  [Inception: Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
-- [x]  [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325.pdf)
-- []  [Microsoft COCO: Common Objects in Context](https://arxiv.org/pdf/1405.0312)
+- [ResNet: Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+- [Inception: Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
+- [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325.pdf)
+- [Microsoft COCO: Common Objects in Context](https://arxiv.org/pdf/1405.0312)
+- [SqueezeNext: Hardware-Aware Neural Network Design](https://arxiv.org/abs/1803.10615)
 
 ## Misc
 
