@@ -20,6 +20,12 @@ Chapters covered:
 - [Object Detection with YOLO algorithm](http://datahacker.rs/object-detection-yolo-algorithm/)
 
 
+## Model Zoo
+
+- [TensorFlow* Object Detection API models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
+- [Caffe Models](https://github.com/BVLC/caffe/tree/master/models) and [Caffe2 Models](https://github.com/caffe2/models)
+
+
 ## Technical Resources
 
 - [Raspbian Stretch: Install OpenCV 3 + Python on your Raspberry Pi](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
