@@ -23,19 +23,16 @@ Chapters covered:
 ## Technical Resources
 
 - [Raspbian Stretch: Install OpenCV 3 + Python on your Raspberry Pi](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
+- [Intel OpenVINO docker image](https://github.com/mmphego/my-dockerfiles/blob/master/intel-openvino/)
 
 
 ## Research Papers
 
-- [ResNet: Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
-- [Inception: Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
-- [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325.pdf)
-
+- [x]  [ResNet: Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+- []  [Inception: Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
+- [x]  [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325.pdf)
+- []  [Microsoft COCO: Common Objects in Context](https://arxiv.org/pdf/1405.0312)
 
 ## Misc
 
 - https://github.com/asharn/2.5-month-of-intel-edge-aiot/blob/master/README.md#day-12-january-29-2020-30daysofudacity
-
-
-
-
