@@ -1,0 +1,3 @@
+[submodule "Projects/people-counter-openvino-edgeai-project"]
+	path = Projects/people-counter-openvino-edgeai-project
+	url = github.com:mmphego/people-counter-openvino-edgeai-project.git
