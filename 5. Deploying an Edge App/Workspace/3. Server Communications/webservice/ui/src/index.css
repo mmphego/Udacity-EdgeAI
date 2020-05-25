@@ -1,0 +1,17 @@
+@import './constants/constants.css';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background: var(--my-white);
+  color: var(--my-white);
+  font-family: OpenSans, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
+  width: 100vw;
+  position: relative;
+}

@@ -1,0 +1,14 @@
+:root {
+  --my-black: #222;
+  --my-red: red;
+  --my-white: #fff;
+  --my-light-grey: #f3f3f3;
+  --my-dark-gray: #252525;
+}
+
+@define-mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

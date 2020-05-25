@@ -1,0 +1,23 @@
+@import '../../constants/constants.css';
+
+.stats {
+  position: absolute;
+  z-index: 100;
+  background-color: #f2f2f2;
+  height: calc( 100vh - 55px);
+  width: 300px;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: transform .3s ease-in-out;
+  transform: translateX(400px);
+  &.active {
+    transform: translateX(0);
+  }
+  & button {
+    background-color: transparent;
+    border: none;
+    color: #02b3e4;
+    outline: none;
+  }
+}
