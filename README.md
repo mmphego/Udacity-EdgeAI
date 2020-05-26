@@ -1,14 +1,19 @@
-# Intel® Edge AI for IoT Developers nanodegree 
+# Intel® Edge AI for IoT Developers nanodegree
 
 ---
 Chapters covered:
 
-1. [Introduction to AI at the edge](1.%20Introduction%20to%20AI%20at%20the%20edge)
-2. [Leveraging Pre-Trained Models](2.%20Leveraging%20Pre-Trained%20Models)
-3. [Model Optimizer](3.%20Model%20Optimizer)
-4. [Inference Engine](4.%20Inference%20Engine)
-5. [Deploying an Edge App](5.%20Deploying%20an%20Edge%20App)
+1. [Introduction to AI at the edge](1.%20Edge%20AI%20Fundamentals%20with%20OpenVINO/1.%20Introduction%20to%20AI%20at%20the%20edge)
+2. [Leveraging Pre-Trained Models](1.%20Edge%20AI%20Fundamentals%20with%20OpenVINO/2.%20Leveraging%20Pre-Trained%20Models)
+3. [Model Optimizer](1.%20Edge%20AI%20Fundamentals%20with%20OpenVINO/3.%20Model%20Optimizer)
+4. [Inference Engine](1.%20Edge%20AI%20Fundamentals%20with%20OpenVINO/4.%20Inference%20Engine)
+5. [Deploying an Edge App](1.%20Edge%20AI%20Fundamentals%20with%20OpenVINO/5.%20Deploying%20an%20Edge%20App)
 
+Projects:
+
+- [x] [Deploy a People Counter App at the Edge](https://github.com/mmphego/people-counter-openvino-edgeai-project/tree/master)
+- [ ] [Smart Queueing System]()
+- [ ] [Computer Pointer Controller]()
 
 ## Additional Resources
 
