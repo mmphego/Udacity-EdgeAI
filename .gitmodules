@@ -1,3 +1,9 @@
 [submodule "Projects/people-counter-openvino-edgeai-project"]
 	path = Projects/people-counter-openvino-edgeai-project
 	url = github.com:mmphego/people-counter-openvino-edgeai-project.git
+[submodule "Projects/smart-queue-monitoring-system"]
+	path = Projects/smart-queue-monitoring-system
+	url = git@github.com:mmphego/smart-queue-monitoring-system.git
+[submodule "Projects/face_mask_detection"]
+	path = Projects/face_mask_detection
+	url = git@github.com:mmphego/face_mask_detection_openvino.git
