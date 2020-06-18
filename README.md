@@ -12,7 +12,7 @@ Chapters covered:
 Projects:
 
 - [x] [Deploy a People Counter App at the Edge](https://github.com/mmphego/people-counter-openvino-edgeai-project/tree/master)
-- [ ] [Smart Queueing System]()
+- [x] [Smart Queueing System](https://github.com/mmphego/smart-queue-monitoring-system)
 - [ ] [Computer Pointer Controller]()
 
 ## Additional Resources
