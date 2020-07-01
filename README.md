@@ -43,6 +43,7 @@ Projects:
 - [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325.pdf)
 - [Microsoft COCO: Common Objects in Context](https://arxiv.org/pdf/1405.0312)
 - [SqueezeNext: Hardware-Aware Neural Network Design](https://arxiv.org/abs/1803.10615)
+- [An Analysis of Deep Neural Network Models for Practical Applications](https://arxiv.org/pdf/1605.07678.pdf)
 
 ## Misc
 
