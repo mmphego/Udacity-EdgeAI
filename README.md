@@ -34,8 +34,8 @@ Projects:
 
 ## Technical Resources
 
-- [Raspbian Stretch: Install OpenCV 3 + Python on your Raspberry Pi](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
 - [Intel OpenVINO docker image](https://github.com/mmphego/my-dockerfiles/blob/master/intel-openvino/)
+<!-- - [Raspbian Stretch: Install OpenCV 3 + Python on your Raspberry Pi](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/) -->
 
 ## Research Papers
 
@@ -45,6 +45,9 @@ Projects:
 - [Microsoft COCO: Common Objects in Context](https://arxiv.org/pdf/1405.0312)
 - [SqueezeNext: Hardware-Aware Neural Network Design](https://arxiv.org/abs/1803.10615)
 - [An Analysis of Deep Neural Network Models for Practical Applications](https://arxiv.org/pdf/1605.07678.pdf)
+- [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)
+- [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/abs/1610.02357)
+
 
 ## Misc
 
