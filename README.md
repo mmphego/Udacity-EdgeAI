@@ -51,6 +51,7 @@ Projects:
 
 - Model Pruning
     - [Designing Energy-Efficient Convolutional Neural Networks using Energy-Aware Pruning](https://arxiv.org/abs/1611.05128)
+    - [Learning both Weights and Connections for Efficient Neural Networks](https://arxiv.org/abs/1506.02626)
 
 ## Misc
 
