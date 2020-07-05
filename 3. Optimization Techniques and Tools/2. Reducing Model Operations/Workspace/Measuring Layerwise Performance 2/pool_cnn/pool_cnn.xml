@@ -1,0 +1,281 @@
+<?xml version="1.0" ?>
+<net name="pool_cnn" version="7">
+	<layers>
+		<layer id="0" name="input_input_2" type="Input">
+			<output>
+				<port id="0" precision="FP32">
+					<dim>1</dim>
+					<dim>1</dim>
+					<dim>28</dim>
+					<dim>28</dim>
+				</port>
+			</output>
+		</layer>
+		<layer id="1" name="input_2/convolution" type="Convolution">
+			<data auto_pad="valid" dilations="1,1" group="1" kernel="3,3" output="10" pads_begin="0,0" pads_end="0,0" strides="1,1"/>
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>1</dim>
+					<dim>28</dim>
+					<dim>28</dim>
+				</port>
+			</input>
+			<output>
+				<port id="3" precision="FP32">
+					<dim>1</dim>
+					<dim>10</dim>
+					<dim>26</dim>
+					<dim>26</dim>
+				</port>
+			</output>
+			<blobs>
+				<weights offset="0" precision="FP32" size="360"/>
+				<biases offset="360" precision="FP32" size="40"/>
+			</blobs>
+		</layer>
+		<layer id="2" name="input_2/Relu" type="ReLU">
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>10</dim>
+					<dim>26</dim>
+					<dim>26</dim>
+				</port>
+			</input>
+			<output>
+				<port id="1" precision="FP32">
+					<dim>1</dim>
+					<dim>10</dim>
+					<dim>26</dim>
+					<dim>26</dim>
+				</port>
+			</output>
+		</layer>
+		<layer id="3" name="average_pooling2d_1/AvgPool" type="Pooling">
+			<data auto_pad="valid" exclude-pad="true" kernel="2,2" pads_begin="0,0" pads_end="0,0" pool-method="avg" strides="2,2"/>
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>10</dim>
+					<dim>26</dim>
+					<dim>26</dim>
+				</port>
+			</input>
+			<output>
+				<port id="1" precision="FP32">
+					<dim>1</dim>
+					<dim>10</dim>
+					<dim>13</dim>
+					<dim>13</dim>
+				</port>
+			</output>
+		</layer>
+		<layer id="4" name="conv2d_1_1/convolution" type="Convolution">
+			<data auto_pad="valid" dilations="1,1" group="1" kernel="3,3" output="5" pads_begin="0,0" pads_end="0,0" strides="1,1"/>
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>10</dim>
+					<dim>13</dim>
+					<dim>13</dim>
+				</port>
+			</input>
+			<output>
+				<port id="3" precision="FP32">
+					<dim>1</dim>
+					<dim>5</dim>
+					<dim>11</dim>
+					<dim>11</dim>
+				</port>
+			</output>
+			<blobs>
+				<weights offset="400" precision="FP32" size="1800"/>
+				<biases offset="2200" precision="FP32" size="20"/>
+			</blobs>
+		</layer>
+		<layer id="5" name="conv2d_1_1/Relu" type="ReLU">
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>5</dim>
+					<dim>11</dim>
+					<dim>11</dim>
+				</port>
+			</input>
+			<output>
+				<port id="1" precision="FP32">
+					<dim>1</dim>
+					<dim>5</dim>
+					<dim>11</dim>
+					<dim>11</dim>
+				</port>
+			</output>
+		</layer>
+		<layer id="6" name="conv2d_1_1/Relu/Transpose" type="Permute">
+			<data order="0,2,3,1"/>
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>5</dim>
+					<dim>11</dim>
+					<dim>11</dim>
+				</port>
+			</input>
+			<output>
+				<port id="1" precision="FP32">
+					<dim>1</dim>
+					<dim>11</dim>
+					<dim>11</dim>
+					<dim>5</dim>
+				</port>
+			</output>
+		</layer>
+		<layer id="7" name="flatten_1_2/Reshape/Cast_1882_const" type="Const">
+			<output>
+				<port id="1" precision="I32">
+					<dim>2</dim>
+				</port>
+			</output>
+			<blobs>
+				<custom offset="2220" precision="I32" size="8"/>
+			</blobs>
+		</layer>
+		<layer id="8" name="flatten_1_2/Reshape" type="Reshape">
+			<data special_zero="False"/>
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>11</dim>
+					<dim>11</dim>
+					<dim>5</dim>
+				</port>
+				<port id="1">
+					<dim>2</dim>
+				</port>
+			</input>
+			<output>
+				<port id="2" precision="FP32">
+					<dim>1</dim>
+					<dim>605</dim>
+				</port>
+			</output>
+		</layer>
+		<layer id="9" name="dense_1_2/MatMul" type="FullyConnected">
+			<data out-size="128"/>
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>605</dim>
+				</port>
+			</input>
+			<output>
+				<port id="3" precision="FP32">
+					<dim>1</dim>
+					<dim>128</dim>
+				</port>
+			</output>
+			<blobs>
+				<weights offset="2228" precision="FP32" size="309760"/>
+				<biases offset="311988" precision="FP32" size="512"/>
+			</blobs>
+		</layer>
+		<layer id="10" name="dense_1_2/Relu" type="ReLU">
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>128</dim>
+				</port>
+			</input>
+			<output>
+				<port id="1" precision="FP32">
+					<dim>1</dim>
+					<dim>128</dim>
+				</port>
+			</output>
+		</layer>
+		<layer id="11" name="output_2/MatMul" type="FullyConnected">
+			<data out-size="10"/>
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>128</dim>
+				</port>
+			</input>
+			<output>
+				<port id="3" precision="FP32">
+					<dim>1</dim>
+					<dim>10</dim>
+				</port>
+			</output>
+			<blobs>
+				<weights offset="312500" precision="FP32" size="5120"/>
+				<biases offset="317620" precision="FP32" size="40"/>
+			</blobs>
+		</layer>
+		<layer id="12" name="output_2/Softmax" type="SoftMax">
+			<data axis="1"/>
+			<input>
+				<port id="0">
+					<dim>1</dim>
+					<dim>10</dim>
+				</port>
+			</input>
+			<output>
+				<port id="1" precision="FP32">
+					<dim>1</dim>
+					<dim>10</dim>
+				</port>
+			</output>
+		</layer>
+	</layers>
+	<edges>
+		<edge from-layer="0" from-port="0" to-layer="1" to-port="0"/>
+		<edge from-layer="1" from-port="3" to-layer="2" to-port="0"/>
+		<edge from-layer="2" from-port="1" to-layer="3" to-port="0"/>
+		<edge from-layer="3" from-port="1" to-layer="4" to-port="0"/>
+		<edge from-layer="4" from-port="3" to-layer="5" to-port="0"/>
+		<edge from-layer="5" from-port="1" to-layer="6" to-port="0"/>
+		<edge from-layer="6" from-port="1" to-layer="8" to-port="0"/>
+		<edge from-layer="7" from-port="1" to-layer="8" to-port="1"/>
+		<edge from-layer="8" from-port="2" to-layer="9" to-port="0"/>
+		<edge from-layer="9" from-port="3" to-layer="10" to-port="0"/>
+		<edge from-layer="10" from-port="1" to-layer="11" to-port="0"/>
+		<edge from-layer="11" from-port="3" to-layer="12" to-port="0"/>
+	</edges>
+	<meta_data>
+		<MO_version value="2020.1.0-61-gd349c3ba4a"/>
+		<cli_parameters>
+			<blobs_as_inputs value="True"/>
+			<data_type value="float"/>
+			<disable_nhwc_to_nchw value="False"/>
+			<disable_resnet_optimization value="False"/>
+			<enable_concat_optimization value="False"/>
+			<extensions value="DIR"/>
+			<framework value="tf"/>
+			<freeze_placeholder_with_value value="{}"/>
+			<generate_deprecated_IR_V2 value="False"/>
+			<generate_deprecated_IR_V7 value="True"/>
+			<generate_experimental_IR_V10 value="False"/>
+			<input_model value="DIR/pool_cnn.pb"/>
+			<input_model_is_text value="False"/>
+			<input_shape value="[1,28,28,1]"/>
+			<keep_quantize_ops_in_IR value="True"/>
+			<keep_shape_ops value="False"/>
+			<log_level value="ERROR"/>
+			<mean_scale_values value="{}"/>
+			<mean_values value="()"/>
+			<model_name value="pool_cnn"/>
+			<move_to_preprocess value="False"/>
+			<output_dir value="DIR"/>
+			<placeholder_data_types value="{}"/>
+			<placeholder_shapes value="[ 1 28 28  1]"/>
+			<progress value="False"/>
+			<reverse_input_channels value="False"/>
+			<scale_values value="()"/>
+			<silent value="False"/>
+			<stream_output value="False"/>
+			<unset unset_cli_parameters="batch, disable_fusing, disable_gfusing, finegrain_fusing, input, input_checkpoint, input_meta_graph, output, saved_model_dir, saved_model_tags, scale, tensorboard_logdir, tensorflow_custom_layer_libraries, tensorflow_custom_operations_config_update, tensorflow_object_detection_api_pipeline_config, tensorflow_operation_patterns, tensorflow_subgraph_patterns, tensorflow_use_custom_operations_config, transformations_config"/>
+		</cli_parameters>
+	</meta_data>
+</net>
