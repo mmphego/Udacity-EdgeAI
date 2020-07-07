@@ -56,3 +56,4 @@ Projects:
 ## Misc
 
 - https://github.com/asharn/2.5-month-of-intel-edge-aiot/blob/master/README.md#day-12-january-29-2020-30daysofudacity
+- [Project Ideas](https://sites.google.com/udacity.com/intel-edge-ai-scholarship/community/project-showcase/scholars-choice-candidates)
