@@ -7,3 +7,6 @@
 [submodule "Projects/face_mask_detection"]
 	path = Projects/face_mask_detection
 	url = git@github.com:mmphego/face_mask_detection_openvino.git
+[submodule "Projects/computer-pointer-controller"]
+	path = Projects/computer-pointer-controller
+	url = git@github.com:mmphego/computer-pointer-controller.git
