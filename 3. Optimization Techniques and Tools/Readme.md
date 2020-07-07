@@ -114,10 +114,38 @@ When model inference is not the issue, we would consider profiling it for hotspo
 
 ## Introduction to Intel VTune Amplifier
 
----
+**[VTune Amplifier](https://software.intel.com/en-us/vtune)** is an advanced profiler that can be used to find hotspots in our application code.
+
+Download and install VTune Amplifier. You can download VTune Amplifier from [here](https://software.intel.com/en-us/vtune/choose-download#standalone) and you can get detailed instructions about how to install and run it from [here](https://software.intel.com/en-us/get-started-with-vtune) (on the left-hand side of the page, you can select instructions for Windows, Mac, or Linux).
+
+You will also need an application that you can test. A simple application can be downloaded [here](https://video.udacity-data.com/topher/2020/March/5e74dc91_vtune-project/vtune-project.zip), or use any application that you wrote previously.
+
+[https://youtu.be/g-wZfDdBTrM](https://youtu.be/g-wZfDdBTrM)
+
+In conclusion, the VTune Amplifier can help us check for hotspots in our application code and also help us see the effective hardware utilization. You should keep in mind that the VTune Amplifier only gives performance results of your application code and not your model. If there are delays in your application, but your code does not have any major hotspots then you should use the DL Workbench to measure the performance of your model.
 
 ---
 
----
+# Packaging and Deploying Runtime Applications
+
+## Packaging an app
+
+OpenVINO offers an easy way of packaging application and deploying them to various hardware devices using the Deployment Manager which comes preinstalled in the OpenVINO directory. 
+
+In the video, I will be creating a runtime package of the `vtune_project`.
+
+[https://video.udacity-data.com/topher/2020/March/5e706d96_nd131-c03-l03-a06-packaging-your-application/nd131-c03-l03-a06-packaging-your-application_720p.mp4](https://video.udacity-data.com/topher/2020/March/5e706d96_nd131-c03-l03-a06-packaging-your-application/nd131-c03-l03-a06-packaging-your-application_720p.mp4)
+
+You can find detailed instructions about the Deployment Manager [here](https://docs.openvinotoolkit.org/latest/_docs_install_guides_deployment_manager_tool.html)
+
+## Deploying Runtime Package
+
+In example above, we deployed the runtime package we created in the previous exercise on the CPU present in this Workspace.
+
+The runtime package of the `vtune_project` has already been uploaded in the workspace. If you want to deploy your own application, then you can upload it and try it out.
+
+You will find detailed instructions on how to deploy your runtime package [here](https://docs.openvinotoolkit.org/latest/_docs_install_guides_deployment_manager_tool.html).
+
+[https://video.udacity-data.com/topher/2020/March/5e797932_nd131-c03-l03-a07-solution-deploying-runtime-package-v2/nd131-c03-l03-a07-solution-deploying-runtime-package-v2_720p.mp4](https://video.udacity-data.com/topher/2020/March/5e797932_nd131-c03-l03-a07-solution-deploying-runtime-package-v2/nd131-c03-l03-a07-solution-deploying-runtime-package-v2_720p.mp4)
 
 ---
