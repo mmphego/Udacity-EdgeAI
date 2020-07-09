@@ -20,11 +20,14 @@ Projects:
 - [AI At The Edge - An Introduction To Intel OpenVINO Toolkit.](https://blog.mphomphego.co.za/blog/2020/05/25/AI-at-the-Edge-An-introduction-to-Intel-OpenVINO-Toolkit.html)
 - [Introduction to OpenVINO](https://towardsdatascience.com/introduction-to-openvino-897e705a1f0a)
 - [Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
+- [Lossless Triplet loss](https://towardsdatascience.com/lossless-triplet-loss-7e932f990b24)
+- [Machine Learning is Fun!](https://medium.com/@ageitgey/machine-learning-is-fun-part-2-a26a10b68df3)
 - [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
 - [Deep Learning for Object Detection: A Comprehensive Review](https://towardsdatascience.com/deep-learning-for-object-detection-a-comprehensive-review-73930816d8d9)
 - [On implementing Deep Learning library from scratch in Python](https://towardsdatascience.com/on-implementing-deep-learning-library-from-scratch-in-python-c93c942710a8)
 - [Object Detection with YOLO algorithm](http://datahacker.rs/object-detection-yolo-algorithm/)
-
+- [A Simple Guide to Convolutional Neural Networks](https://towardsdatascience.com/a-simple-guide-to-convolutional-neural-networks-751789e7bd88)
+- [How to detect objects in a picture and classify them using OpenVINO with Python](https://www.goto50.ai/2020/04/15/how-to-detect-objects-in-a-picture-and-classify-them-using-openvino-with-python/#article-top)
 
 ## Model Zoo
 
@@ -55,5 +58,9 @@ Projects:
 
 ## Misc
 
+- [Tutorial: Computer Vision and Machine Learning with Python, Keras and OpenCV](https://github.com/jrobchin/Computer-Vision-Basics-with-Python-Keras-and-OpenCV)
 - https://github.com/asharn/2.5-month-of-intel-edge-aiot/blob/master/README.md#day-12-january-29-2020-30daysofudacity
 - [Project Ideas](https://sites.google.com/udacity.com/intel-edge-ai-scholarship/community/project-showcase/scholars-choice-candidates)
+- [
+OpenVINO Interactive face detection demo¶
+](https://gist.github.com/kodamap/5c257ca5987e6bb8d6904690fb77a9d7)
