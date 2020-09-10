@@ -40,7 +40,7 @@ def test(test_func, test_name, test_image):
     solution = solution_funcs[test_name](test_image)
     comparison = np.array_equal(student_processed, solution)
     print_test_result(test_name, comparison)
-    
+
     return comparison
 
 
@@ -67,8 +67,8 @@ def feedback(tests_passed):
 
 def set_solution_functions():
     global solution_funcs
-    solution_funcs = {test_names[0]: pose_solution, 
-                      test_names[1]: text_solution, 
+    solution_funcs = {test_names[0]: pose_solution,
+                      test_names[1]: text_solution,
                       test_names[2]: car_solution}
 
 
