@@ -64,3 +64,10 @@ Projects:
 - [
 OpenVINO Interactive face detection demo¶
 ](https://gist.github.com/kodamap/5c257ca5987e6bb8d6904690fb77a9d7)
+
+----
+
+
+**Completed and Graduated**
+
+[![image](https://user-images.githubusercontent.com/7910856/88201449-bfc00c00-cc47-11ea-9da8-6a8e6578664b.png)](https://confirm.udacity.com/LJGDPZCM)
