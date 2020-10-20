@@ -1,0 +1,3 @@
+# Jupyter notebook
+#*.ipynb  text
+*.ipynb linguist-vendored
